@@ -13,7 +13,7 @@
   
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-         
+         <div class="col-4">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -23,6 +23,18 @@
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
+
+          </div> 
+         </div>
+
+          <div class="col-4">
+
+
+               <img id="img" src="https://mir-s3-cdn-cf.behance.net/projects/404/b3664d178061509.Y3JvcCw1MjM2LDQwOTYsMjU5LDA.jpg"  alt="">
+          </div>
+
+
+          <div class="col-4">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 
                 
@@ -33,12 +45,31 @@
                 <li class="nav-item" id="reg">
                     <a class="nav-link active" aria-current="page" href="#">register</a>
                   </li>
+                  <li>
+                    <button id="Cart" class="btn bg-light"> <i class="fa-solid fa-cart-plus" style="color: #0a3175;"></i> </button>
+                  </li>
                  
 
               </ul>
           </div>
-        </div>
+
+         </div>
+        
       </nav>
+
+      <section>
+           <div class="container">
+             <div class="row border border-1">
+               <div class="col col-1"></div>
+               <div class="col col-2">HOME</div>
+               <div class="col-2">MENS</div>
+               <div class="col col-2">WOMENS</div>
+               <div class="col col-2">ABOUT US</div>
+               <div class="col col-2">CONTACT</div>  
+               <div class="col col-1"></div>
+             </div>
+           </div>
+      </section>
 
       <!-- banner -->
 
@@ -50,7 +81,7 @@
                 <h1>GNARLY FISH</h1>
                 <P>IS A FISHING,DIVING ,BOATING AND <br>
                 WATERSPOUTS COMPANY</P>
-                <button id="btn">SHOP NOW></button>
+                <button id="btn" class="form-control">SHOP NOW></button>
             </div>
            </div>
       </div>
@@ -65,7 +96,7 @@
         <div class="col-4">
         <div class="card1 border border-5" style="width: 25rem; height: 20rem;">
             
-            <div class="content">
+            <div class="content text-white">
                 <h1>HATS</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quod.</p>
                 <button>ADD TO CART</button>
@@ -75,9 +106,9 @@
         </div>  
 
          <div class="col-4">
-          <div class="card2" style="width: 25rem; height: 20rem;">
+          <div class="card2" style="width: 25rem; height: 40rem;">
             
-            <div class="content">
+            <div class="content text-white">
                 <h1>HEAD DEFENCE</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quod.</p>
                 <button>ADD TO CART</button>
@@ -88,16 +119,42 @@
 
 
          <div class="col-4">
-            <div class="card3 border border-5" style="width: 25rem; height: 20rem;">
+            <div class="card3 border border-2" style="width: 25rem; height: 20rem;">
             
-                <div class="content">
-                    <h1>Gear</h1>
+                <div class="content text-white">
+                    <h1 >Gear</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quod.</p>
                     <button>ADD TO CART</button>
                 </div>
                 
               </div>
          </div>
+
+
+         <div class="col-4">
+          <div class="card4 border border-5" style="width: 25rem; height: 20rem;">
+          
+              <div class="content text-white">
+                  <h1 >SHIRTS</h1>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quod.</p>
+                  <button>ADD TO CART</button>
+              </div>
+              
+            </div>
+       </div>
+
+       <div class="col-4">
+        <div class="card5 border border-5" style="width: 25rem; height: 20rem;">
+        
+            <div class="content text-white">
+                <h1 >WOMENS</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, quod.</p>
+                <button>ADD TO CART</button>
+            </div>
+            
+          </div>
+     </div>
+
         
         </div>
        
@@ -105,6 +162,254 @@
         </div>
 
       </section>
+
+
+
+      <section>
+        <h3 class="text-center">FEATURED COLLECTION</h3>
+
+       <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="card" style="width: 18rem; ">
+              <img src="https://cdn.shopify.com/s/files/1/1616/9825/files/custom-stack-m.jpg?v=1685569895" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">HATS</h5>
+                <div class="ms-5"><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span> </div>
+                  <span id="strike">15.25$</span> <br>
+                  <span id="val">12.36$</span>
+                <a href="#" class="btn btn-primary">Shop Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img src="https://images-cdn.ubuy.co.in/6539a3bfd5f7ea4c112b3d79-j-ver-men-39-s-dress-shirts-solid-long.jpg" height="283px" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">SHIRTS</h5>
+                <div class="ms-5"><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span> </div>
+                  <span id="strike">40.25$</span> <br>
+                  <span id="val">35.36$</span>
+                <a href="#" class="btn btn-primary">Shop Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 18rem; ">
+              <img src="https://i0.wp.com/www.swaroopfashion.com/wp-content/uploads/2019/04/Woman-White-Cotton-Embroidered-Shirt.png?fit=433%2C576&ssl=1" height="283px" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">WOMENS</h5>
+                <div class="ms-5"><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span> </div>
+                  <span id="strike">35.25$</span> <br>
+                  <span id="val">30.36$</span>
+                <a href="#" class="btn btn-primary">Shop Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card" style="width: 18rem; ">
+              <img src="https://www.giboxonline.com/cdn/shop/files/Untitled-1_0003_8904384202390.jpg?v=1694238215"  class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">GEAR</h5>
+                <div class="ms-5"><span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star checked"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span> </div>
+                  <span id="strike">35.25$</span> <br>
+                  <span id="val">30.36$</span>
+                <a href="#" class="btn btn-primary">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+       </div>
+      </section>
+
+
+      <section>
+           <h3 class="text-center mt-5" > <span id="a">GNARLY FISH</span>  <SPAN id="INSTA">#INSTAGRAM </SPAN></h3>
+           <div class="container-fluid">
+            <div class="row mt-4">
+
+              <div class="col-2">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://cdn.pixabay.com/photo/2023/04/09/23/32/fish-7912504_1280.jpg" class="card-img-top" alt="...">
+                  
+                </div>
+              </div>
+
+              <div class="col-2">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://cdn.pixabay.com/photo/2020/09/07/16/32/fishing-5552310_1280.jpg" class="card-img-top" alt="...">
+                  
+                </div>
+              </div>
+
+              <div class="col-2">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://cdn.pixabay.com/photo/2020/09/03/13/53/fishing-boat-5541327_960_720.jpg" class="card-img-top" alt="...">
+                  
+                </div>
+              </div>
+
+              <div class="col-2">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://cdn.pixabay.com/photo/2016/12/04/23/22/hat-1882816_1280.jpg" class="card-img-top" alt="...">
+                  
+                </div>
+              </div>
+
+              <div class="col-2">
+                <div class="card" style="width: 18rem;">
+                  <img src="https://cdn.pixabay.com/photo/2017/03/16/10/11/light-painting-2148675_1280.jpg" class="card-img-top" alt="...">
+                  
+                </div>
+              </div>
+
+              <div class="col-2">
+                <div class="card" style="width: 15rem;">
+                  <img src="https://cdn.pixabay.com/photo/2014/07/31/22/59/man-407095_1280.jpg" width="100%" height="190px" class="card-img-top" alt="...">
+                  
+                </div>
+              </div>
+              
+            </div>
+           </div>
+      </section>
+
+      <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+  <!-- Section: Social media -->
+ 
+    <!-- Right -->
+
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+              NAVIGATION
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Home</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Mens</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Womens</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">About us</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Contact us</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            SOCIAL MEDIA
+          </h6>
+          <div >
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f text-lowercase"></i>
+              Facebook
+            </a> <br> <br>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+              Twitter
+            </a> <br> <br>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+              Google
+            </a> <br> <br>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+              Instagram
+            </a> <br> <br>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+              linkdin
+            </a> <br> <br>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+              Github
+            </a>
+          </div> 
+          
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            HELP
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Customer Service</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Countries We Ship to</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Returns & Exchanges</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Size Guide</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Wholesale Inquiries</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">NEWSLETTER</h6>
+         <input class="form-control" type="email" placeholder="Email"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
+          <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
+        </svg> 
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2021 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 
     
 </body>
